@@ -1,0 +1,74 @@
+.jumbotron {
+  padding-top: 70px;
+  background-color: white;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* Cursor */
+.typed-cursor {
+  color: #011627;
+}
+
+/* If fade out option is set */
+.typed-fade-out {
+  color: #011627;
+}
+
+/* About Me */
+
+#about .btn {
+  background-color: #011627;
+  margin-top: 50px;
+  width: 250px;
+  height: 45px;
+  border-radius: 20px;
+}
+
+/* Skills */
+
+#skill {
+  position: relative;
+}
+#skill img {
+  width: 60px;
+  height: 100px;
+  margin: 0.5rem 2rem;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
+#skill img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.2);
+}
+
+/* Project */
+
+#project .slider-project {
+  padding: 20px 0px 0px 0px !important;
+}
+
+#project .slider-project .slick-slide {
+  margin: 20px !important;
+}
+
+#project .btn {
+  background-color: #011627;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 190px;
+  height: 45px;
+}
+
+/* Contac Us */
+
+#icon {
+  background: #011627;
+  text-align: center;
+  padding-top: 45px;
+}
